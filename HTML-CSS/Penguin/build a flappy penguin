@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./flappy-penguin.css" />
     <title>Penguin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -31,7 +31,12 @@
         <div>💜</div>
         <p>I CSS</p>
       </div> 
-      <div class="penguin-body"></div>
+      <div class="penguin-body">
+        <div class="arm left"></div>
+        <div class="arm right"></div>
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+      </div>
     </div>
 
     <div class="ground"></div>
